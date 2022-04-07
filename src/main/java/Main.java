@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 4, 4, 2, 3, 4, 1, 7,};
+        int[] arr = {1, 2, 4, 4, 2, 3, 4, 1, 7};
         int[] a = {1, 2, 4, 4, 2, 4};
         int[] b = {1, 2, 4, 4, 1, 7, 5, 6, 1};
         int[] c = {1, 2, 1, 7, 444, 44, 14};
