@@ -1,3 +1,5 @@
+package TestSomeMethods;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
@@ -5,6 +7,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
+import lesson6.Main;
 
 public class MassTests1 {
     public static Stream<Arguments> after4() {
@@ -18,6 +21,6 @@ public class MassTests1 {
     @ParameterizedTest
     @MethodSource("after4")
     public void testAfter4(int[] in, int[] out) {
-        Assertions.assertArrayEquals(out. Main.chekingArr(in));
+        Assertions.assertArrayEquals(out, Main.checkingArr(in));
     }
 }
